@@ -80,6 +80,11 @@ return packer.startup(function(use)
   use "williamboman/nvim-lsp-installer"
   use "jose-elias-alvarez/null-ls.nvim"
 
+  -- Telescope
+  use "nvim-telescope/telescope.nvim"
+  use "BurntSushi/ripgrep"
+  use "nvim-telescope/telescope-file-browser.nvim"
+
   -- Copilot
   use "github/copilot.vim"
 	
